@@ -1,0 +1,4 @@
+/home/vagrant/bin/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DINSTALL=. -DAUTO_DOWNLOAD=1 -G "CodeBlocks - Unix Makefiles" /workspace/TimeZoneService
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/TimeZoneService/cmake-build-debug

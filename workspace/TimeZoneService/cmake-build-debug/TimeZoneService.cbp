@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TimeZoneService"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimeZoneService">
+				<Option output="/workspace/TimeZoneService/cmake-build-debug/bin/TimeZoneService" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSE_OS_TZDB=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX17_ABI=0"/>
+					<Add directory="/home/vagrant/dev-deps/include"/>
+					<Add directory="/workspace/TimeZoneService/include"/>
+					<Add directory="/workspace/TimeZoneService/date/include"/>
+					<Add directory="/workspace/TimeZoneService/test/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/include/clang/4.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-4.0/bin/../lib/clang/4.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 TimeZoneService"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimeZoneService/fast">
+				<Option output="/workspace/TimeZoneService/cmake-build-debug/bin/TimeZoneService" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSE_OS_TZDB=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX17_ABI=0"/>
+					<Add directory="/home/vagrant/dev-deps/include"/>
+					<Add directory="/workspace/TimeZoneService/include"/>
+					<Add directory="/workspace/TimeZoneService/date/include"/>
+					<Add directory="/workspace/TimeZoneService/test/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/include/clang/4.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-4.0/bin/../lib/clang/4.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 TimeZoneService/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimeZoneServiceTest">
+				<Option output="/workspace/TimeZoneService/cmake-build-debug/bin/TimeZoneServiceTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSE_OS_TZDB=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX17_ABI=0"/>
+					<Add directory="/home/vagrant/dev-deps/include"/>
+					<Add directory="/workspace/TimeZoneService/include"/>
+					<Add directory="/workspace/TimeZoneService/date/include"/>
+					<Add directory="/workspace/TimeZoneService/test/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/include/clang/4.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-4.0/bin/../lib/clang/4.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 TimeZoneServiceTest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimeZoneServiceTest/fast">
+				<Option output="/workspace/TimeZoneService/cmake-build-debug/bin/TimeZoneServiceTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSE_OS_TZDB=1"/>
+					<Add option="-D_GLIBCXX_USE_CXX17_ABI=0"/>
+					<Add directory="/home/vagrant/dev-deps/include"/>
+					<Add directory="/workspace/TimeZoneService/include"/>
+					<Add directory="/workspace/TimeZoneService/date/include"/>
+					<Add directory="/workspace/TimeZoneService/test/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
+					<Add directory="/usr/include/clang/4.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-4.0/bin/../lib/clang/4.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 TimeZoneServiceTest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/workspace/TimeZoneService/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/workspace/TimeZoneService/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/workspace/TimeZoneService/TimeZoneService.cpp">
+			<Option target="TimeZoneService"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/date/src/tz.cpp">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/include/TimeZoneService.h">
+			<Option target="TimeZoneService"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/include/service/ConversionParameters.h">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/include/service/HandlerFactory.h">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/include/service/TimeZoneConversionHandler.h">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/include/service/TimeZoneListHandler.h">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/include/service/TimeZoneValidationHandler.h">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/service/ConversionParameters.cpp">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/service/HandlerFactory.cpp">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/service/TimeZoneConversionHandler.cpp">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/service/TimeZoneListHandler.cpp">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/service/TimeZoneValidationHandler.cpp">
+			<Option target="TimeZoneService"/>
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/include/catch.hpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/ConversionParameterDayTests.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/ConversionParameterHourTests.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/ConversionParameterMinuteTests.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/ConversionParameterMonthTests.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/ConversionParameterTests.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/ConversionParameterYearTests.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/TimeZoneConversionHandlerTest.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/test/service/TimeZoneServiceTest.cpp">
+			<Option target="TimeZoneServiceTest"/>
+		</Unit>
+		<Unit filename="/workspace/TimeZoneService/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

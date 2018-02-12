@@ -1,0 +1,7 @@
+[requires]
+Poco/1.7.9@pocoproject/stable
+Catch/2.0.1@bincrafters/stable
+trompeloeil/v29@rollbear/stable
+
+[generators]
+cmake

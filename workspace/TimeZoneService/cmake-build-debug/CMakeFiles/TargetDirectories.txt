@@ -1,0 +1,5 @@
+/workspace/TimeZoneService/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/workspace/TimeZoneService/cmake-build-debug/CMakeFiles/TimeZoneService.dir
+/workspace/TimeZoneService/cmake-build-debug/CMakeFiles/TimeZoneServiceTest.dir
+/workspace/TimeZoneService/cmake-build-debug/CMakeFiles/edit_cache.dir
+/workspace/TimeZoneService/cmake-build-debug/CMakeFiles/test.dir
