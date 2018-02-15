@@ -1,7 +1,6 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "hklabbers/Ubuntu-16.04.3-Dev"
   config.vm.box_version = "0.0.2"
-#  config.vm.box = "Ubuntu-16.04.3-Dev"
   config.vm.hostname = "CPP-DEV"
   config.vm.synced_folder "../workspace", "/workspace"
 

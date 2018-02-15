@@ -15,7 +15,7 @@ include_directories("/home/vagrant/dev-deps/include" "include" "date/include" "t
 
 set(CURL_LIBS /home/vagrant/dev-deps/lib/libcurl.a)
 set(POCO_LIBS /home/vagrant/dev-deps/lib/libPocoAlld.a)
-set(PLATFORM_LIBS pthread)
+set(PLATFORM_LIBS pthread -static-libgcc -static-libstdc++)
 
 set(DATE_SOURCE_FILES
         date/include/date/chrono_io.h
